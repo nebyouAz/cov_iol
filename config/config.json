@@ -7,21 +7,21 @@
   "log_level": "info",
   "statsd": {},
   "api": {
-    "apiURL": "https://localhost:8080",
+    "apiURL": "https://3.135.236.186:8080",
     "username": "root@openhim.org",
-    "password": "JissonofG",
+    "password": "password",
     "trustSelfSigned": true
   },
   "mediatorConf": {
     "urn": "urn:uuid:a15c3d48-0686-4c9b-b375-f68d2f244a33",
     "version": "0.1.0",
-    "name": "MFR",
-    "description": "A record fetching mediator",
+    "name": "cov_iol",
+    "description": "A tracker record fetching mediator",
     "defaultChannelConfig": [],
     "endpoints": [
       {
         "name": "Fetch",
-        "host": "localhost",
+        "host": "3.135.236.186",
         "path": "/fetch",
         "port": "4002",
         "primary": true,

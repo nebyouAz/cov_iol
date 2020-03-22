@@ -1,11 +1,11 @@
 {
     "urn": "urn",
-    "version": "0.0.20",
-    "name": "MFR",
-    "description": "Fetch facility records from MFR",
+    "version": "0.1.0",
+    "name": "cov-iol",
+    "description": "A tracker record fetching mediator",
     "defaultChannelConfig": [
       {
-        "name": "MFR",
+        "name": "cov-iol",
         "urlPattern": "/fetch",
         "alerts": [],
         "txRerunAcl": [],
@@ -16,7 +16,7 @@
         "routes": [
           {
             "name": "fetch Route",
-            "host": "localhost",
+            "host": "3.135.236.186",
             "port": "3000",
             "primary": true,
             "type": "http"
@@ -31,7 +31,7 @@
     "endpoints": [
       {
         "name": "fetch Route",
-        "host": "localhost",
+        "host": "3.135.236.186",
         "path": "/",
         "port": "3001",
         "primary": true,
@@ -64,7 +64,7 @@
     ],
     "config": {
       "baseurl": "http://api.mfr.sandboxaddis.com",
-      "collectionname": "MFR-PRODUCTION",
-      "DHIS2baseurl": "http://localhost:8081"
+      "collectionname": "Follow Up Application",
+      "DHIS2baseurl": "http://18.224.138.44:8080/"
     }
   }

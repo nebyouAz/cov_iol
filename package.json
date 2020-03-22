@@ -1,7 +1,7 @@
 {
-  "name": "openhim-mediator-MFR",
+  "name": "openhim-mediator-cov-iol",
   "version": "0.1.0",
-  "description": "A mediator to fetch MFR records",
+  "description": "A mediator to fetch tracker records",
   "scripts": {
     "start": "node lib/index.js"
   },
@@ -44,5 +44,5 @@
     "rewire": "^2.5.1",
     "tap": "^2.3.4"
   },
-  "author": "Biniyam"
+  "author": "JSI-DUP"
 }
